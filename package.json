@@ -1,9 +1,8 @@
 {
- 
+  "homepage": "https://Oussamaerrahem.github.io/smartdevelopment-/",
   "name": "nraidapp",
   "version": "0.1.0",
   "private": true,
-  
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -24,7 +23,8 @@
     "styled-components": "^5.0.1"
   },
   "scripts": {
-    
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
