@@ -57,11 +57,11 @@ Custom website design, Template creation, new redesign, graphic upgrade.
                 <div className="creative-info">
                 
                 <h4 className="info-dir">AN APPOINTMENT?</h4>
-                <p className="info-desc" style={{color:"white",fontSize:"25px"}}>
+                <p className="info-desc" style={{color:"white",fontSize:"20px"}}>
                 It all starts with an appointment to clearly discuss your project over a coffee.
                 Thanks to my active listening, we would certainly be on the same wavelength. 
                 </p>
-                <p className="info-desc" style={{color:"white",fontSize:"25px"}}>
+                <p className="info-desc" style={{color:"white",fontSize:"20px"}}>
                 As a professional web developer and programmer, your project has added value.
                 </p>
                 

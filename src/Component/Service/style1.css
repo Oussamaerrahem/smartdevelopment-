@@ -19,7 +19,7 @@ height: 500px;
 }
 .w .part {
     margin-top: 30px;
-    width: 40%;
+    width: 45%;
     float: left;
     height: auto;
     padding: 20px 0;
@@ -27,11 +27,11 @@ height: 500px;
     box-sizing: border-box;
     background-color:rgb(241, 235, 235);
     text-align: center;
-    margin-left: 5%;
+    margin-left: 3%;
     
 }
 .w .part .part-title {
-    font-size: 25px;
+    font-size: 20px;
     color: #eb5424;
     margin-bottom: 20px
 }
@@ -42,7 +42,7 @@ height: 500px;
 }
 
 .w .part .part-desc {
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     padding: 20px;
 
@@ -71,7 +71,7 @@ height: 500px;
 }
 
 .c .creative-info .info-dir {
-    font-size: 50px;
+    font-size: 40px;
     color: #eb5424;
     margin-bottom: 15px;
 }
@@ -83,7 +83,7 @@ height: 500px;
     
 }
 .info-desc{
-    width: 500px;
+    width: 300px;
     
 }
 .c .creative-info .info-desc a {
