@@ -29,7 +29,7 @@ Custom website design, Template creation, new redesign, graphic upgrade.
                     <h4 className="part-title">HTML5 / CSS3 </h4>
                     <hr className="line" />
                     <p className="part-desc">
-                   Creation web pages using HTML and CSS3 web layout, responsive design websites .<br/>
+                   Creation web pages using HTML and CSS3 web layout, responsive design.<br/>
                     </p>
                 </div>
                 <div className="part first">
