@@ -46,7 +46,7 @@ class Navbar extends Component {
             
         
             
-            <Ullist style={{textAlign:"right"}}>
+            <Ullist style={{textAlign:"center"}}>
                 <Listitem ><Link style={{textDecoration:'none',fontFamily:"Blackadder ITC",color:"#eb5424"}}  to="/">Home</Link></Listitem>
                 
                 <Listitem ><Link style={{textDecoration:'none',fontFamily:"Blackadder ITC",color:"#eb5424"}} to="/Contact">Contact</Link></Listitem>

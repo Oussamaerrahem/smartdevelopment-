@@ -42,7 +42,7 @@ export const Listitem=styled.li
 `
 font-size: 30px;
 display: inline-block;
-margin-right:20px;
+margin-right:15px;
 width: 200px;
 `
 

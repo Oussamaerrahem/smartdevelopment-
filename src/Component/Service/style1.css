@@ -19,7 +19,7 @@ height: 500px;
 }
 .w .part {
     margin-top: 30px;
-    width: 45%;
+    width: 40%;
     float: left;
     height: auto;
     padding: 20px 0;
@@ -42,7 +42,7 @@ height: 500px;
 }
 
 .w .part .part-desc {
-    font-size: 25px;
+    font-size: 15px;
     color: black;
     padding: 20px;
 
