@@ -12,7 +12,7 @@
     flex-wrap: wrap-reverse;
 }
 .left-col {
-    margin-right: 30px;
+    margin-right: 60px;
 }
 .logo{
     width: "180px";
@@ -32,6 +32,9 @@ color: #fc5c65;
 }
 .right-col h1 {
     font-size: 26px;
+}
+.rights-text{
+    font-size: 13px;
 }
 .border {
     width: 50%;

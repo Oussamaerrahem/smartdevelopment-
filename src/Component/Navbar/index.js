@@ -2,63 +2,60 @@
 import { Link } from 'react-router-dom';
 import './style.js'
 import {Navbarsection,Logo,Logotext,Ullist,Listitem,aa}from './style.js'
-import React, { Component } from 'react';
+
 import './style2.css'
 
-class Navbar extends Component {
-  
-  
- 
+import React, { useState } from 'react';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  NavbarText
+} from 'reactstrap';
 
-    constructor() {
-        super()
-    this.state={time:new Date()}
-      }
-    
-      currentTime()
-      {
-        this.setState({
-          time: new Date()
-        })
-      }
-      componentWillMount()
-      {
-    setInterval(()=>this.currentTime(),1000)
-      }
-      
+const Navbars = (props) => {
+  
 
-    render() {
-     
-    return(
-        <Navbarsection style={{backgroundColor:"#E6E6FA"}} >
+  
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
+
+  return (
+    <div className="n">
+      <Navbar color="light" light expand="md">
+        <h1  style={{fontFamily:"Blackadder ITC"}} >Smart Development </h1>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="mr-auto" navbar style={{marginLeft:"30px"}} >
+          
+            <NavItem  >
+            <Link  style={{textDecoration:'none',color:"black",fontSize:"20px"}}  to="/">Home</Link>
+            </NavItem>
+            <NavItem >
+            <Link style={{textDecoration:'none',color:"black",fontSize:"20px"}} to="/Contact">Contact</Link>
+            </NavItem>
+            <NavItem >
+            <Link  style={{textDecoration:'none',color:"black",fontSize:"20px"}} to="/Myservices">My services</Link>
+            </NavItem>
             
-            <h1 style={{textAlign:"center",float:"Right",border:"1px solid black",marginRight:"20px",padding:"0px",marginBottom:"0px",marginTop:"10px",fontFamily:"Blackadder ITC",color:"#eb5424"}} >
-        {this.state.time.toLocaleTimeString()}
-      </h1>
-     
+          </Nav>
+          <NavbarText><a href="https://www.facebook.com/oussama.errahem" target="_blanked" > <i style={{fontSize:"30px" ,color:"blue"}} className="fab fa-facebook-f" ></i> </a> <a href="https://github.com/Oussamaerrahem" target="_blanked" > <i style={{fontSize:"30px",color:"blue"}} className="fab fa-github" ></i> </a> <a href="https://www.linkedin.com/in/errahem-oussama-37b46911a/" target="_blanked" > <i style={{fontSize:"30px",color:"blue"}} className="fab fa-linkedin" ></i> </a> </NavbarText>
+        </Collapse>
+      </Navbar>
       <a id="btnScrollToTop" href="" >
         Up
       </a>
-            
-            <Logo >
-                <Logotext style={{fontFamily:"Blackadder ITC",color:"#eb5424"}} >Smart Development</Logotext>
-            </Logo>
-            
-        
-            
-            <Ullist style={{textAlign:"center"}}>
-                <Listitem ><Link style={{textDecoration:'none',fontFamily:"Blackadder ITC",color:"#eb5424"}}  to="/">Home</Link></Listitem>
-                
-                <Listitem ><Link style={{textDecoration:'none',fontFamily:"Blackadder ITC",color:"#eb5424"}} to="/Contact">Contact</Link></Listitem>
-               
-                
-                <Listitem ><Link style={{textDecoration:'none',fontFamily:"Blackadder ITC",color:"#eb5424"}} to="/Myservices">My services</Link></Listitem>
-                
-               
-            </Ullist>
-            
-        </Navbarsection>
-      
-    )
-}}
-export default Navbar;
+    </div>
+  );
+}
+
+export default Navbars;

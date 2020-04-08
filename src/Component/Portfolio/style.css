@@ -6,7 +6,7 @@
 
 .portfolio .portfolio-title {
     text-align: center;
-    font-size: 35px
+    font-size: 35px;
 }
 
 .portfolio .portfolio-title span {
@@ -16,18 +16,21 @@
 .portfolio .portfolio-list {
     list-style: none;
     text-align: center;
-    margin: 20px 0
+    margin: 20px 0;
+    
+    
 }
 
 .portfolio .portfolio-list .portfolio-item {
     display: inline-block;
     width: 100px;
-    padding: 10px
+    padding: 10px;
+    
 }
 
 .portfolio .portfolio-list .portfolio-item.active {
-    background: #eb5424;
-    color: #fff
+    background: #9c9a99;
+    color: #fff;
 }
 
 .box div {

@@ -19,20 +19,21 @@ height: 500px;
 }
 .w .part {
     margin-top: 30px;
-    width: 40%;
+    width: 45%;
     float: left;
-    height: auto;
+    height: 350px;
     padding: 20px 0;
     border: 1px solid #888;
     box-sizing: border-box;
     background-color:rgb(241, 235, 235);
     text-align: center;
-    margin-left: 3%;
+    margin-left: 4%;
+    border-radius: 30%;
     
 }
 .w .part .part-title {
     font-size: 20px;
-    color: #eb5424;
+    color: #f35507;
     margin-bottom: 20px
 }
 .w .part .line {
@@ -45,6 +46,7 @@ height: 500px;
     font-size: 15px;
     color: black;
     padding: 20px;
+    width: 100%;
 
 }
 .c {
@@ -72,7 +74,7 @@ height: 500px;
 
 .c .creative-info .info-dir {
     font-size: 40px;
-    color: #eb5424;
+    color: #c74f2b;
     margin-bottom: 15px;
 }
 

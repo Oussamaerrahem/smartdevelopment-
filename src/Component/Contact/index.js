@@ -6,7 +6,11 @@ import Footer from './../Footer';
 const Contact = ()=>{
     return(
         <div>
+       <br/>
+       <br/>
+       <br/>
        
+
          <div className="drop">
             <div className="container">
                 <h2 className="drop-title"><span>Drop </span>Me A line</h2>

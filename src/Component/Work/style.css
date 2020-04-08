@@ -23,13 +23,14 @@
     margin-top: 20px;
     width: 30%;
     float: left;
-    height: auto;
+    height: 400px;
     padding: 100px 0;
     border: 1px solid #888;
     box-sizing: border-box;
     text-align: center;
     margin-left: 3%
 }
+
 
 .work .first {
     margin-left: 0
@@ -42,7 +43,7 @@
 
 .work .part .part-title {
     font-size: 15px;
-    color: #eb5424;
+    color: black;
     margin-bottom: 20px
 }
 

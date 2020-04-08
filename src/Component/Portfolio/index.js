@@ -16,10 +16,10 @@ const Portfolio =()=>{
             <h2 className="portfolio-title">My Portfolio</h2>
             <ul className="portfolio-list">
                 <li className="portfolio-item active">All </li>
-                <li className="portfolio-item active">HTML</li>
-                <li className="portfolio-item active">CSS</li>
-                <li className="portfolio-item active">JS</li>
-                <li className="portfolio-item active">REACT JS</li>
+                <li className="portfolio-item ">HTML</li>
+                <li className="portfolio-item ">CSS</li>
+                <li className="portfolio-item ">JS</li>
+                <li className="portfolio-item ">REACT JS</li>
             </ul>
             
             <div className="box">

@@ -19,12 +19,15 @@
 .profile_skills .profile .profile-list .profile-item span{
     display: inline-block;
     width: 100px;
-    font-weight: bold
+    font-weight: bold;
+    font-size: 15px;
+
 }
 
 .profile_skills .profile .profile-list .profile-item span.web {
     font-weight: normal;
-    color: #eb5424
+    color: #eb5424;
+    
 }
 
 .profile_skills .skills {
