@@ -23,8 +23,3 @@ a{
 i:hover {
     opacity: 0.3;
 }
-.n {
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-}

@@ -6,9 +6,6 @@ import Footer from './../Footer';
 const Contact = ()=>{
     return(
         <div>
-       <br/>
-       <br/>
-       <br/>
        
 
          <div className="drop">

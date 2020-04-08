@@ -7,10 +7,7 @@ import './style1.css';
 const Myservices = () => {
   return (
     <div>
-    <br/>
-       <br/>
-       <br/>
-        
+    
        
     <div className="w" > >
     <div className="container" >

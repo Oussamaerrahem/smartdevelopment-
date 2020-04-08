@@ -32,10 +32,10 @@ const Navbars = (props) => {
   return (
     <div className="n">
       <Navbar color="light" light expand="md">
-        <h1  style={{fontFamily:"Blackadder ITC"}} >Smart Development </h1>
+        <h1  style={{fontFamily:"Blackadder ITC",fontSize:"30px"}} >Smart Development </h1>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar style={{marginLeft:"30px"}} >
+          <Nav className="mr-auto" navbar style={{marginLeft:"35px"}} >
           
             <NavItem  >
             <Link  style={{textDecoration:'none',color:"black",fontSize:"20px"}}  to="/">Home</Link>

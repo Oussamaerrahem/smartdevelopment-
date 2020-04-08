@@ -4,9 +4,7 @@ import './style.css'
 const Home =()=>{
     return(
         <div>
-       <br/>
-       <br/>
-       <br/>
+       
              <div className="home">
             <div className="container">
                 <div className="home-information">
