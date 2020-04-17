@@ -23,9 +23,9 @@ const Work =()=>{
                     <h4 className="part-title">Smart Development</h4>
                     <hr className="line" />
                     <p className="part-desc">
-                    <a href="" target="_blank" style={{textDecoration:"none"}} >Click Here </a> <br/>
+                    <a href="https://nraidapp.herokuapp.com" target="_blank" style={{textDecoration:"none"}} >Click Here </a> <br/>
                         Or <br/> 
-                        <a href="" target="_blank" style={{textDecoration:"none"}} >Click Here </a>
+                        <a href="https://github.com/Oussamaerrahem/smartdevelopment-" target="_blank" style={{textDecoration:"none"}} >Click Here </a>
                     </p>
                 </div>
                 

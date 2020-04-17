@@ -3,6 +3,7 @@ import './style.css';
 
 const SocialMedia =()=>{
     return(
+    
         <div className="footer">
         <div className="footer-container" >
         <div className="left-col" >
@@ -30,6 +31,7 @@ const SocialMedia =()=>{
         </div>
         </div>
         </div>
+       
        
 
 
